@@ -1,0 +1,7 @@
+{
+  "name": "OmniCalc Pro",
+  "description": "Smart scientific & standard calculator with saved calculations, custom labels, and clear interactive history panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

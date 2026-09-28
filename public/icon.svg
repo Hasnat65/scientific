@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#312e81" />
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Base background (for regular and maskable safe zone) -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+
+  <!-- Calculator Chassis -->
+  <g filter="url(#shadow)">
+    <rect x="76" y="76" width="360" height="360" rx="36" fill="#18181b" stroke="#3f3f46" stroke-width="4" />
+  </g>
+
+  <!-- Display Window -->
+  <rect x="108" y="108" width="296" height="92" rx="18" fill="url(#screenGrad)" stroke="#334155" stroke-width="2" />
+  <!-- Display readout text -->
+  <text x="124" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#94a3b8" letter-spacing="1">OMNICALC</text>
+  <circle cx="376" cy="134" r="5" fill="#38bdf8" />
+  <text x="384" y="180" font-family="'JetBrains Mono', monospace, sans-serif" font-size="34" font-weight="700" fill="#f8fafc" text-anchor="end">42,580</text>
+
+  <!-- Keypad Grid (3x3 icons) -->
+  <!-- Row 1 -->
+  <rect x="108" y="222" width="62" height="52" rx="14" fill="#27272a" />
+  <text x="139" y="256" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="600" fill="#e4e4e7" text-anchor="middle">7</text>
+
+  <rect x="186" y="222" width="62" height="52" rx="14" fill="#27272a" />
+  <text x="217" y="256" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="600" fill="#e4e4e7" text-anchor="middle">8</text>
+
+  <rect x="264" y="222" width="62" height="52" rx="14" fill="#27272a" />
+  <text x="295" y="256" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="600" fill="#e4e4e7" text-anchor="middle">9</text>
+
+  <rect x="342" y="222" width="62" height="52" rx="14" fill="#4338ca" />
+  <text x="373" y="256" font-family="'JetBrains Mono', monospace" font-size="26" font-weight="600" fill="#ffffff" text-anchor="middle">÷</text>
+
+  <!-- Row 2 -->
+  <rect x="108" y="290" width="62" height="52" rx="14" fill="#27272a" />
+  <text x="139" y="324" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="600" fill="#e4e4e7" text-anchor="middle">4</text>
+
+  <rect x="186" y="290" width="62" height="52" rx="14" fill="#27272a" />
+  <text x="217" y="324" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="600" fill="#e4e4e7" text-anchor="middle">5</text>
+
+  <rect x="264" y="290" width="62" height="52" rx="14" fill="#27272a" />
+  <text x="295" y="324" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="600" fill="#e4e4e7" text-anchor="middle">6</text>
+
+  <rect x="342" y="290" width="62" height="52" rx="14" fill="#4338ca" />
+  <text x="373" y="324" font-family="'JetBrains Mono', monospace" font-size="26" font-weight="600" fill="#ffffff" text-anchor="middle">×</text>
+
+  <!-- Row 3 -->
+  <rect x="108" y="358" width="62" height="52" rx="14" fill="#27272a" />
+  <text x="139" y="392" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="600" fill="#e4e4e7" text-anchor="middle">1</text>
+
+  <rect x="186" y="358" width="62" height="52" rx="14" fill="#27272a" />
+  <text x="217" y="392" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="600" fill="#e4e4e7" text-anchor="middle">2</text>
+
+  <rect x="264" y="358" width="62" height="52" rx="14" fill="#27272a" />
+  <text x="295" y="392" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="600" fill="#e4e4e7" text-anchor="middle">3</text>
+
+  <rect x="342" y="358" width="62" height="52" rx="14" fill="url(#accentGrad)" />
+  <text x="373" y="392" font-family="'JetBrains Mono', monospace" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">=</text>
+</svg>
